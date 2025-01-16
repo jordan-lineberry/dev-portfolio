@@ -34,7 +34,7 @@ const Greetings = () => {
                   <SocialLinks />
                 </Col>
                 <Col lg="6">
-                  <GreetingLottie animationPath="/lottie/coding.json" />
+                  <img src='img/icons/common/rb_9487.png' style={{ width: '100%' }} />
                 </Col>
               </Row>
             </div>

@@ -7,30 +7,32 @@ const GithubProfileCard = ({ avatar_url, bio, location }: GithubUserType) => {
   return (
     <Card className="section-lg bg-gradient-info shadow-lg border-0">
       <Container className="">
-        <div className="p-2">
+        <div className="p-2" style={{ color: 'white' }}>
           <Row className="">
-            <Col className="order-lg-2" lg="4">
-              <img
-                src={avatar_url}
-                style={{ width: "200px" }}
-                alt=""
-                className="rounded-circle img-center img-fluid shadow shadow-lg--hover mb-4"
-              />
+            <Col className="order-lg-2" lg="6">
+                <h5 style={{ color: 'white' }}>Where to find me</h5>
+
+                <p>
+                  JLN RADIAL LR MELATI I NO1117 24 ILIR BUKITKECIL<br />
+                  KOTA PALEMBANG 30127, INDONESIA
+                </p>
+
+                <h5 style={{ color: 'white' }}>Contact</h5>
+
+                <p>
+                  <b>Email: </b>lalunah854@gmail.com <br></br>
+                  <b>Phone: </b>+62 895711253335
+                </p>
+
             </Col>
-            <Col lg="8" className="order-lg-1">
+            <Col lg="6" className="order-lg-1">
               <h2 className="text-white">Reach Out to me!</h2>
               <p className="lead text-white mt-3">DISCUSS A PROJECT OR JUST WANT TO SAY HI? MY INBOX IS OPEN FOR ALL</p>
               <p className="text-white mt-3">{bio}</p>
             </Col>
           </Row>
         </div>
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '0' }}>
-          <p>JLN RADIAL LR MELATI I NO1117 24 ILIR BUKITKECIL</p>
-          <p>KOTA PALEMBANG 30127</p>
-          <p>INDONESIA</p>
-          <b></b>
-          <p>+62 895711253335</p>
-          <p>lalunah854@gmail.com</p>
+        <div className="row contact-info">
         </div>
       </Container>
     </Card>

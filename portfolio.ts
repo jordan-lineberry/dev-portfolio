@@ -13,9 +13,11 @@ import {
 
 export const greetings: GreetingsType = {
   name: "Nirwalah Ningsih",
-  title: "Hi all, I'm Nirwalah! (Western Name: Jordan Lineberry)",
+  title: "Hi all, I'm Nirwalah Ningsih! (Western Name: Jordan Lineberry)",
   description:
-    "I'm a passionate Full Stack web developer with experience developing Full Stack web applications with Python, Django, React.js, and Cloud Technologies. I am strongly interested in learning new technologies and implementing them in my projects. I'm a self-motivated and hardworking individual who is always ready to learn new things and work in a team.",
+    `I provide professional Full Stack web development services to companies of all sizes, from startups to established enterprises. My expertise lies in creating modern, user-friendly, and scalable web solutions tailored to meet the unique needs of each client.
+
+Whether it's developing a new application, enhancing an existing platform, or integrating innovative features, I focus on delivering results that help businesses succeed in today's digital landscape.`,
   resumeLink: "#",
 };
 

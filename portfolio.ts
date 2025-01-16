@@ -103,7 +103,7 @@ export const SkillBars: SkillBarsType[] = [
 
 export const educationInfo: EducationType[] = [
   {
-    schoolName: "The Univeristy of Texas at Dallas",
+    schoolName: "University of North Sumatra",
     subHeader: "Bachelor of Science in Computer Science",
     duration: "September 2012 - April 2016",
     desc: "",
